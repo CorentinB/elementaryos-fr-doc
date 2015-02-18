@@ -277,14 +277,14 @@ guillemet, par exemple le code suivant :
 
 .. code-block:: vala
 
-   string phrase = "Mon prénom est \"Nicolas\" \n";
+   string phrase = "Mon prenom est \"Nicolas\" \n";
    print(phrase);
 
 affichera :
 
 .. code-block:: text
 
-   Mon prénom est "Nicolas"
+   Mon prenom est "Nicolas"
 
 Si vous avez testé par vous-même, vous avez pu remarquer que le caractère
 spécial *\n* effectue un saut de ligne.
@@ -293,16 +293,16 @@ Ainsi, le code suivant :
 
 .. code-block:: vala
 
-   string phrase = "Mon prénom est \"Nicolas\"\n";
+   string phrase = "Mon prenom est \"Nicolas\"\n";
    print(phrase);
-   print("Passage\nà\nla\nligne\n");
+   print("Passe\nà\nla\nligne\n");
 
 affichera:
 
 
 .. code-block:: text
 
-   Mon prénom est "Nicolas"
+   Mon prenom est "Nicolas"
    Passe
    à
    la
